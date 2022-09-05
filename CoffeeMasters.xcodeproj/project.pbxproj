@@ -11,6 +11,7 @@
 		491F70CE28C5081E008ED67F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F70CD28C5081E008ED67F /* ContentView.swift */; };
 		491F70D028C50820008ED67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491F70CF28C50820008ED67F /* Assets.xcassets */; };
 		491F70D328C50820008ED67F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491F70D228C50820008ED67F /* Preview Assets.xcassets */; };
+		4946E8DE28C579BA00629DE9 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946E8DD28C579BA00629DE9 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		491F70CD28C5081E008ED67F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		491F70CF28C50820008ED67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491F70D228C50820008ED67F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4946E8DD28C579BA00629DE9 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				491F70CB28C5081E008ED67F /* CoffeeMastersApp.swift */,
+				4946E8DD28C579BA00629DE9 /* Offer.swift */,
 				491F70CD28C5081E008ED67F /* ContentView.swift */,
 				491F70CF28C50820008ED67F /* Assets.xcassets */,
 				491F70D128C50820008ED67F /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4946E8DE28C579BA00629DE9 /* Offer.swift in Sources */,
 				491F70CE28C5081E008ED67F /* ContentView.swift in Sources */,
 				491F70CC28C5081E008ED67F /* CoffeeMastersApp.swift in Sources */,
 			);
