@@ -9,25 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        EmptyView()
+        TabView {
+            MenuPage()
+                .tabItem{
+                    Image(systemName: "cup.and.saucer")
+                    Text("Home")
+                }
+            OffersPage()
+                .tabItem {
+                    Image(systemName: "tag")
+                    Text("Offers")
+                }
+            OrdersPage()
+                .tabItem {
+                    Image(systemName: "cart")
+                    Text("Order")
+                }
+            InfoPage()
+                .tabItem {
+                    Image(systemName: "info")
+                    Text("Info")
+                }
+        }
+        
     }
 }
-
-//struct Greeting: View {
-//    @State var name = ""
-//    var body: some View {
-//        VStack {
-//            TextField("First name", text: $name)
-//                .padding()
-//                .overlay(
-//                    RoundedRectangle(cornerRadius: 16)
-//                        .stroke(Color.blue, lineWidth: 2)
-//                )
-//                .padding()
-//            Text("Hello, \(name)!")
-//        }
-//    }
-//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
